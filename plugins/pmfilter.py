@@ -1771,7 +1771,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚜️ Oᴜʀ Cʜᴀɴɴᴇʟs ⚜️', url='https://t.me/Kutty_LinkZz')
         ],[
-            InlineKeyboardButton('🍀 Mᴏᴠɪᴇs Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🍀', url='https://t.me/KuttyLinkZzRequest'),
+            InlineKeyboardButton('🍀 Mᴏᴠɪᴇs Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🍀', url='https://t.me/KuttyLinkZzRequest')
+        ],[
             InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url='https://t.me/KuttySupport')
         ],[
             InlineKeyboardButton('✉️ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✉️', url='https://t.me/+FjvhE5MTRWk3OGI1')
@@ -2057,7 +2058,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('🖼️ Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ 🔗', callback_data='img') 
         ],  [
             InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forward')
+            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2106,7 +2107,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('Sᴏɴɢ ', callback_data='song'),   
              InlineKeyboardButton('J-ꜱᴏɴ', callback_data='json') 
         ],  [
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='forward'),
+            InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='forw'),
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2236,7 +2237,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "sticker":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='extra')
+            InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='extra')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2252,7 +2253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "repo":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='extra')
+            InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='extra')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2273,7 +2274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('☆ Uꜱᴇʀ ☆', callback_data='users'),
             InlineKeyboardButton('ﾒ Gʀᴏᴜᴘ ﾒ', callback_data='group')
         ], [
-            InlineKeyboardButton(' Sᴛᴀᴛs', callback_data='stats')
+            InlineKeyboardButton('☆ Sᴛᴀᴛs ☆', callback_data='stats')
         ], [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
