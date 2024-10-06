@@ -2058,7 +2058,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('🖼️ Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ 🔗', callback_data='img') 
         ],  [
             InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forw')
+            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forward')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2072,7 +2072,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "forw":
+    elif query.data == "forward":
         buttons = [[
              InlineKeyboardButton('Yᴛ-ᴅʟ', callback_data='ytdl'),
         ],  [ 
@@ -2083,7 +2083,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('J-ꜱᴏɴ', callback_data='json') 
         ],  [
             InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='extra'),
-            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forw1')
+            InlineKeyboardButton('Nᴇxᴛ ⋟', callback_data='forward1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2097,7 +2097,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "forw1":
+    elif query.data == "forwar1":
         buttons = [[
              InlineKeyboardButton('🈵 Gᴏᴏɢʟᴇ Tʀᴀɴꜱʟᴀᴛᴇʀ 🆎', callback_data='gtrl'),
         ],  [ 
@@ -2107,7 +2107,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('Sᴏɴɢ ', callback_data='song'),   
              InlineKeyboardButton('J-ꜱᴏɴ', callback_data='json') 
         ],  [
-            InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='forw'),
+            InlineKeyboardButton('⋞ Bᴀᴄᴋ', callback_data='forward'),
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
