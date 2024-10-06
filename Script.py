@@ -27,13 +27,13 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ▫ Fʀᴇᴇ & Eᴀsʏ Tᴏ Usᴇ.
 ▫ 𝟸𝟺x𝟽 Sᴇʀᴠɪᴄᴇs Aᴠᴀɪʟᴀʙʟᴇ.</b>"""
     
-   STATUS_TXT = """<b>    
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-</b>"""
+   STATUS_TXT = """
+   <b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+      ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
+      ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+      ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
+      ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
+   </b>"""
 
     REQUEST_TXT = """<b>📜 Uꜱᴇʀ - {}
 📇 Iᴅ - <code>{}</code>
