@@ -1,42 +1,32 @@
 class script(object):
-    START_TXT = """Hᴇʏ {}, {}\n\nI Aᴍ Lᴀᴛᴇꜱᴛ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Pᴏᴡᴇʀꜰᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ+└Aᴡᴇꜱᴏᴍᴇ Fɪʟᴛᴇʀ┘+├Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ┤+☞Mᴀɴᴜᴀʟ Fɪᴛᴇʀ☜ Aɴᴅ ᢵCᴜꜱᴛᴏᴍɪᴢᴇᴅ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛᢴ Aɴᴅ ᢾPʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱᢿ.\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/KuttyAdmin_Bot">Ƙυƚƚყ</a>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! ⚡\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HeartThieft_bot">ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ</a></blockquote></b>"""
 
-    GSTART_TXT = """Hᴇʏ {},\n\nI Aᴍ Lᴀᴛᴇꜱᴛ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Pᴏᴡᴇʀꜰᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ+└Aᴡᴇꜱᴏᴍᴇ Fɪʟᴛᴇʀ┘+├Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ┤+☞Mᴀɴᴜᴀʟ Fɪᴛᴇʀ☜ Aɴᴅ ᢵCᴜꜱᴛᴏᴍɪᴢᴇᴅ Sʜᴏʀᴛɴᴇʀ Sᴜᴘᴘᴏʀᴛᢴ Aɴᴅ ᢾPʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱᢿ.\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/KuttyAdmin_Bot">Ƙυƚƚყ</a>"""
+    GSTART_TXT = """ʜᴇʏ {},\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HeartThieft_bot">ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ</a>"""
     
-    HELP_TXT = """<b>Hᴇʏ {}
+    HELP_TXT = """<b>ʜᴇʏ {},
     
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
-    ABOUT_TXT = """ <b><blockquote>⍟───[ Mʏ Dᴇᴛᴀɪʟs ]───⍟</blockquote>
-    
-‣ Mʏ Nᴀᴍᴇ : <a href='https://t.me/JiraiyaFilter_Bot'>Jɪʀᴀɪʏᴀ Fɪʟᴛᴇʀ Bᴏᴛ</a>
-‣ Mʏ Bᴇsᴛ Fʀɪᴇɴᴅ : <a href='tg://settings'>Tʜɪs Pᴇʀsᴏɴ</a> 
-‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/KuttyAdmin_Bot'>Ƙυƚƚყ</a> 
-‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a> 
-‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a> 
-‣ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a> 
-‣ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Hᴇʀᴏᴋᴜ</a> 
-‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.7.2 [Sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ 😇\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/HeartThieft_bot'>ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ😇</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""
     
     
-    JOINUPDATES_TXT = """
-<b>⚡ Oᴜʀ Aʟʟ Gʀᴏᴜᴘꜱ Aɴᴅ Cʜᴀɴɴᴇʟꜱ ⚡ 
-
-▫ Aʟʟ Nᴇᴡ Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
-▫ Fᴀsᴛᴇsᴛ Bᴏᴛs Aʀᴇ Aᴅᴅᴇᴅ.
-▫ Fʀᴇᴇ & Eᴀsʏ Tᴏ Usᴇ.
-▫ 𝟸𝟺x𝟽 Sᴇʀᴠɪᴄᴇs Aᴠᴀɪʟᴀʙʟᴇ.</b>"""
+    JOINUPDATES_TXT = """<b>🔰 ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ 🔰
+★ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛɪɴɢ ɢʀᴏᴜᴘ.
+★ ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs.
+★ ғᴀsᴛᴇsᴛ ʙᴏᴛs ᴀʀᴇ ᴀᴅᴅᴇᴅ.
+★ ғʀᴇᴇ & ᴇᴀsʏ ᴛᴏ ᴜsᴇ.
+★ 𝟸𝟺x𝟽 sᴇʀᴠɪᴄᴇs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
     
-   STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-    REQUEST_TXT = """<b>📜 Uꜱᴇʀ - {}
-📇 Iᴅ - <code>{}</code>
+    REQUEST_TXT = """<b>📜 ᴜꜱᴇʀ - {}
+📇 ɪᴅ - <code>{}</code>
 
-🎁 Rᴇǫᴜᴇꜱᴛ Mꜱɢ - <code>{}</code></b>"""  
+🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
 
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -44,21 +34,24 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ʙᴜᴛ ɪ ᴄᴀɴ'ᴛ sᴇɴᴅ ʜᴇʀᴇ 🤞🏻
 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨</b>'''
 
-   LOG_TEXT_G = """#NewGroup
-    
-Gʀᴏᴜᴘ = {}
-Iᴅ = <code>{}</code>
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+    LOG_TEXT_G = """#New_Group {}
+
+Group name - {}
+Id - <code>{}</code>
+Group username - @{}
+Group link - {}
+Total members - <code>{}</code>
+User - {}
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @JiraiyaFilter_Bot 👀"""
+Bʏ @Itzheart_bot """
 
-    LOG_TEXT_P = """#NewUser
-    
-Iᴅ - <code>{}</code>
-Nᴀᴍᴇ - {}
+    LOG_TEXT_P = """<b>#New_User {}
 
-Bʏ @JiraiyaFilter_Bot 👀"""
+≈ ɪᴅ:- <code>{}</code>
+≈ ɴᴀᴍᴇ:- {}</b>
+
+Bʏ @Itzheart_bot """
 
     ALRT_TXT = """Hᴇʟʟᴏ {},
 Tʜɪꜱ Iꜱ Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇꜱᴛ,
@@ -252,25 +245,24 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     SOURCE_TXT = """<b>
 NOTE:
-Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Hᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JiraiyaFilter_Bot">Jɪ̈ʀᴀɪ̈ɏᴀ<a></blockquote>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/HeartThieft_bot">ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ/a></blockquote>
 
+developer : ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ😇
 </b>""" 
 
-   CREDITS_TXT = """<b>
+    # PLESE DO NOT REMOVE ANY CREDITS ❤️‍🩹
+    CREDITS_TXT = """<b>
 ❤️‍🩹 <u>Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ Tᴏ Eᴠᴇʀʏᴏɴᴇ</u>
 
-• Mᴀɪɴ Oᴡɴᴇʀ : <a href="https://t.me/KuttyAdmin_Bot">Ƙυƚƚყ❤️‍🔥</a>
+• Mᴀɪɴ Oᴡɴᴇʀ : <a href="https://t.me/HeartThieft_bot">ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ❤️‍🔥</a>
 
 I Aᴍ Sᴏʀʀʏ Iꜰ I Fᴏʀɢᴏᴛ Sᴏᴍᴇᴏɴᴇ 🫂
 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Hᴇʟᴘɪɴɢ Iɴ Tʜɪꜱ Aᴍᴀᴢɪɴɢ Rᴏʟʟᴇʀ Cᴏᴀꜱᴛᴇʀ Jᴏᴜʀɴᴇʏ 🚀</b>
-"""
+""" 
+   # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-   CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-   ╔════ Jᴏɪɴ Wɪᴛʜ Us ════╗
-       ▫️<a href=https://t.me/Kutty_LinkZz> Daily Updates </a>
-       ▫️<a href=https://t.me/KuttyLinkZzRequest> Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇs </a>
-   ╚════ Jᴏɪɴ Wɪᴛʜ Us ════╝
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/addlist/C4yToj80w35kOGI1">ᴄʟᴀꜱꜱɪᴄ ᴄɪɴᴇᴍᴀᴢᴢ</a>」</b>"""
+    
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -291,10 +283,9 @@ IMDb Data:
 
 Requested by : {message.from_user.mention}</b>
 """
-
-    TELE_TXT = """<b>Help: Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ Dᴏ Aꜱ Yᴏᴜ Wɪꜱʜ Wɪᴛʜ Iᴍɢ.Pʜ Mᴏᴅᴜʟᴇ! 
+    TELE_TXT = """<b>ʜᴇʟᴘ: ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ ɪᴍɢ.ᴘʜ ᴍᴏᴅᴜʟᴇ! 
   
- Uꜱᴀɢᴇ: /img - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
+ ᴜꜱᴀɢᴇ: /img - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
   
  ɴᴏᴛᴇ: 
  ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ɢᴏᴜᴘꜱ ᴀɴᴅ ᴘᴍꜱ 
@@ -303,7 +294,7 @@ Requested by : {message.from_user.mention}</b>
     EXTRAMOD_TXT = """<b>Exᴛʀᴀ Mᴏᴅᴜʟᴇs</b>
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>🌿 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href=https://t.me/KuttyAdmin_Bot>☢ Ƙυƚƚყ ☢</a></b> 
+ <b>✯ Maintained by : <a href=https://t.me/HeartThieft_bot>☢【𝐇ᴇᴀʀᴛ 𝐓ʜɪᴇꜰ】☢</a></b> 
   
  ./song - Download any song [<code>example /song vaa vaathi song</code>] 
   
@@ -520,20 +511,21 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  <b>ʜᴏᴡ ᴛᴏ ᴜꜱᴇ</b> : ᴛyᴩᴇ - <b> /imdb ᴍᴏᴠɪᴇ ɴᴀᴍᴇ</b>
   
  ᴇxᴀᴍᴩʟᴇ :<code>/imdb Money heist...</code></b>""" 
- 
+
+    
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v5.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @JiraiyaFilter_Bot 👀</b>"""
+Bʏ @Itzheart_bot</b>"""
 
     LOGO = """
 
-BOT WORKING PROPERLY 💖"""
+BOT WORKING PROPERLY THANKS ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ 🔥"""
 
     #PLANS
 
@@ -551,8 +543,8 @@ BOT WORKING PROPERLY 💖"""
 ● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
 ● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>sudharsankutty@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://envs.sh/0RB.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>9025448874@ikwik</code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://i.ibb.co/719ycWS/image.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
@@ -568,8 +560,8 @@ BOT WORKING PROPERLY 💖"""
 ● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
 ● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>sudharsankutty@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://envs.sh/0RB.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>9025448874@ikwik/code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://i.ibb.co/719ycWS/image.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
@@ -689,8 +681,8 @@ BOT WORKING PROPERLY 💖"""
 ● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
 ● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>sudharsankutty@ybl</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://envs.sh/0RB.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+💵 ᴜᴘɪ ɪᴅ - <code></code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href=''>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
@@ -699,5 +691,5 @@ BOT WORKING PROPERLY 💖"""
     DEVELOPER_TXT = """
 Special Thanks To ❤️ Developer -
 
--Developer [Owner of this bot ]<a href='https://t.me/KuttyAdmin_Bot'>Ƙυƚƚყ</a>
+-Developer [Owner of this bot ]<a href='https://t.me/HeartThieft_bot'>ʜᴇᴀʀᴛ_ᴛʜɪᴇꜰᴛ</a>
 """
