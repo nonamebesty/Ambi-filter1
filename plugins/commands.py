@@ -159,6 +159,9 @@ async def start(client, message):
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
+                    InlineKeyboardButton('Gʀᴏᴜᴘ Rᴜʟᴇꜱ 🤖', callback_data="rlu"),
+                    InlineKeyboardButton('Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ 🔥', callback_data='extra')
+                ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -218,6 +221,9 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                ],[
+                    InlineKeyboardButton('Gʀᴏᴜᴘ Rᴜʟᴇꜱ 🤖', callback_data="rlu"),
+                    InlineKeyboardButton('Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ 🔥', callback_data='extra')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
@@ -1084,7 +1090,7 @@ async def requests(bot, message):
                         InlineKeyboardButton('ᴠɪᴇᴡ ʀᴇǫᴜᴇꜱᴛ', url=f"{message.link}"),
                         InlineKeyboardButton('ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ', callback_data=f'show_option#{reporter}')
                       ]]
-                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>📝 ʀᴇǫᴜᴇꜱᴛ : <u>{content}</u>\n\n📚 ʀᴇᴘᴏʀᴛᴇᴅ ʙʏ : {mention}\n📖 ʀᴇᴘᴏʀᴛᴇʀ ɪᴅ : {reporter}\n\n©️ ᴛʜᴇ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇʀ™</b>", reply_markup=InlineKeyboardMarkup(btn))
+                reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>📝 Rᴇǫᴜᴇꜱᴛ : <u>{content}</u>\n\n📚 Rᴇᴘᴏʀᴛᴇᴅ ʙʏ : {mention}\n📖 Rᴇᴘᴏʀᴛᴇʀ ɪᴅ : {reporter}\n\n©️ Jɪ̈ʀᴀɪ̈ɏᴀ Ϝɪ̈ʟƚᴇ̂ʀ ßo†™</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
@@ -1092,7 +1098,7 @@ async def requests(bot, message):
                         InlineKeyboardButton('ᴠɪᴇᴡ ʀᴇǫᴜᴇꜱᴛ', url=f"{message.link}"),
                         InlineKeyboardButton('ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ', callback_data=f'show_option#{reporter}')
                       ]]
-                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>📝 ʀᴇǫᴜᴇꜱᴛ : <u>{content}</u>\n\n📚 ʀᴇᴘᴏʀᴛᴇᴅ ʙʏ : {mention}\n📖 ʀᴇᴘᴏʀᴛᴇʀ ɪᴅ : {reporter}\n\n©️ ᴛʜᴇ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇʀ™</b>", reply_markup=InlineKeyboardMarkup(btn))
+                    reported_post = await bot.send_message(chat_id=admin, text=f"<b>📝 Rᴇǫᴜᴇꜱᴛ : <u>{content}</u>\n\n📚 Rᴇᴘᴏʀᴛᴇᴅ ʙʏ : {mention}\n📖 Rᴇᴘᴏʀᴛᴇʀ ɪᴅ : {reporter}\n\n©️ Jɪ̈ʀᴀɪ̈ɏᴀ Ϝɪ̈ʟƚᴇ̂ʀ ßo†™</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
             else:
                 if len(content) < 3:
