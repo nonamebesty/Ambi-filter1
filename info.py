@@ -30,8 +30,8 @@ PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/0RB.jpg')).split()
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', '')) # not support
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'krownlinks.com')) # not support
+STREAM_API = (environ.get('STREAM_API', '10c45cd3943f38044756d4822d8691efd634d174'))
 STREAMHTO = (environ.get('STREAMHTO', ''))
 BOT_USERNAME = environ.get("BOT_USERNAME", "")
 
