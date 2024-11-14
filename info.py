@@ -64,12 +64,12 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nYᴏᴜʀ Rᴇǫ�
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '10c45cd3943f38044756d4822d8691efd634d174')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e5a0df550303e31db72c8924e40e706976a2adb2')
 
-SHORTLINK_URL = 'krownlinks.com'
-SHORTLINK_API = '10c45cd3943f38044756d4822d8691efd634d174'
+#SHORTLINK_URL = 'krownlinks.com'
+#SHORTLINK_API = '10c45cd3943f38044756d4822d8691efd634d174'
 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
