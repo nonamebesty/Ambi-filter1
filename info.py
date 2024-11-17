@@ -30,14 +30,14 @@ PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/0RB.jpg')).split()
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'krownlinks.com')) # not support
-STREAM_API = (environ.get('STREAM_API', '10c45cd3943f38044756d4822d8691efd634d174'))
+STREAM_SITE = (environ.get('STREAM_SITE', '')) # not support
+STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', ''))
 BOT_USERNAME = environ.get("BOT_USERNAME", "")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '880087645').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001188070894 -100169224324 -1002461730224').split()] #Channel id for auto indexing ( make sure bot is admin )
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001188070894 -100169224324 -1002461730224 -1002223699552').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1311694064 1441767180').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '880087645').split()]
@@ -78,7 +78,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviekoodu')
 CHNL_LNK = environ.get('CHNL_LNK', '')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/demoshort')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/demoshort/58')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '✯ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @JAsuran123_bot')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001966055101')) #Log channel id ( make sure bot is admin )
@@ -138,7 +138,7 @@ else:
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 
 # online Stream and Download support only premium user, True or Flase
 JS_WEB_PREMIUM = is_enabled((environ.get('JS_WEB_PREMIUM', "False")), False)
