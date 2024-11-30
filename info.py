@@ -64,9 +64,9 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nYᴏᴜʀ Rᴇǫ�
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e5a0df550303e31db72c8924e40e706976a2adb2')
+VERIFY = bool(environ.get('VERIFY', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 #SHORTLINK_URL = 'krownlinks.com'
 #SHORTLINK_API = '10c45cd3943f38044756d4822d8691efd634d174'
@@ -84,7 +84,7 @@ MSG_ALRT = environ.get('MSG_ALRT', '✯ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @JAsuran1
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002396553917')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), False)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
@@ -116,8 +116,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://web-mrbra4dzccm4.up-de-fra1-k8s-1.apps.run-on-seenode.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://web-mrbra4dzccm4.up-de-fra1-k8s-1.apps.run-on-seenode.com/".format(FQDN, PORT)
+URL = "".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'JisshuBot'))
