@@ -84,7 +84,7 @@ MSG_ALRT = environ.get('MSG_ALRT', '✯ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @JAsuran1
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002396553917')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
@@ -132,13 +132,13 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://web-mrbra4dzccm4.up-de-fra1-k8s-1.apps.run-on-seenode.com/".format(FQDN)
+    URL = "".format(FQDN)
 else:
-    URL = "https://web-mrbra4dzccm4.up-de-fra1-k8s-1.apps.run-on-seenode.com/".format(FQDN)
+    URL = "".format(FQDN)
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 
 # online Stream and Download support only premium user, True or Flase
 JS_WEB_PREMIUM = is_enabled((environ.get('JS_WEB_PREMIUM', "True")), False)
